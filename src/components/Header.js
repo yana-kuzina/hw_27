@@ -6,25 +6,25 @@ const Header = () => {
       <nav>
         <NavLink
           className={({ isActive }) => (isActive ? "active" : "")}
-          to={"/"}
+          to="/"
         >
           Home page{" "}
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active" : "")}
-          to={"/hotels"}
+          to="/hotels"
         >
           Hotels
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active" : "")}
-          to={"/flights"}
+          to="/flights"
         >
           Flights
         </NavLink>
         <NavLink
           className={({ isActive }) => (isActive ? "active" : "")}
-          to={"/packages"}
+          to="/packages"
         >
           Packages
         </NavLink>
